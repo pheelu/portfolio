@@ -50,7 +50,7 @@ const SoftSkills = () => {
               }}
               {...appearingProps}
             className="rounded-2xl border-4 border-neutral-800 p-8 flex items-center justify-center">
-              <TiWorld className="text-7xl text-purple-800" />
+              <TiWorld className="text-5xl text-purple-800" />
             </motion.div>
             <div>
               <motion.h3 {...appearingProps} className="mt-2 text-center font-semibold text-xl">Languages</motion.h3>
@@ -65,7 +65,7 @@ const SoftSkills = () => {
               }}
               {...appearingProps}
                className="rounded-2xl border-4 border-neutral-800 p-8 flex items-center justify-center">
-              <BsChatRightDots className="text-7xl text-purple-800" />
+              <BsChatRightDots className="text-5xl text-purple-800" />
             </motion.div>
             <div>
               <motion.h3 {...appearingProps} className="mt-2 text-center font-semibold text-xl">Communication</motion.h3>
@@ -80,7 +80,7 @@ const SoftSkills = () => {
               }}
               {...appearingProps}
               className="rounded-2xl border-4 border-neutral-800 p-8 flex items-center justify-center">
-              <TfiStatsUp className="text-7xl text-purple-800" />
+              <TfiStatsUp className="text-5xl text-purple-800" />
             </motion.div>
             <div>
               <motion.h3 {...appearingProps} className="mt-2 text-center font-semibold text-xl">Adaptability</motion.h3>
@@ -97,7 +97,7 @@ const SoftSkills = () => {
               }}
               {...appearingProps}
               className="rounded-2xl border-4 border-neutral-800 p-8 flex items-center justify-center">
-              <FaRegLightbulb className="text-7xl text-purple-800" />
+              <FaRegLightbulb className="text-5xl text-purple-800" />
             </motion.div>
             <div>
               <motion.h3 {...appearingProps} className="mt-2 text-center font-semibold text-xl">Critical Thinking</motion.h3>
@@ -112,7 +112,7 @@ const SoftSkills = () => {
               }}
               {...appearingProps}
               className="rounded-2xl border-4 border-neutral-800 p-8 flex items-center justify-center">
-              <FaMagnifyingGlass className="text-7xl text-purple-800" />
+              <FaMagnifyingGlass className="text-5xl text-purple-800" />
             </motion.div>
             <div>
               <motion.h3 {...appearingProps} className="mt-2 text-center font-semibold text-xl">Strategic Thinking</motion.h3>
