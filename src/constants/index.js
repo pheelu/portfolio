@@ -1,7 +1,7 @@
 import project1 from "../assets/projects/image-1.jpg";
 import project2 from "../assets/projects/image-4.jpg";
 
-export const HERO_CONTENT = `I am a 23-year-old Italian student pursuing a Master's in Computer Science in France, specializing in Cybersecurity and E-Payment systems.`;
+export const HERO_CONTENT = `I am a 23-year-old Italian student pursuing a Master's in Computer Engineering in France, specializing in Cybersecurity and E-Payment systems.`;
 
 export const ABOUT_TEXT = `My studies have equipped me with strong technical and problem-solving skills, preparing me to tackle real-world challenges. Passionate about data, I am drawn to fields such as data science, data engineering, and machine learning. I am fascinated by how data drives innovation and decision-making across industries, and I strive to deepen my expertise in this area.
 
