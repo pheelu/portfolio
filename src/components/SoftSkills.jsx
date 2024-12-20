@@ -88,7 +88,7 @@ const SoftSkills = () => {
             </motion.div>
             <div>
               <motion.h3 {...appearingProps} className="mt-2 text-center font-semibold text-xl">Adaptability</motion.h3>
-              <motion.p {...appearingProps} className="text-center text-lg">I strive to stay updated and expand my knowledge, such as</motion.p>
+              <motion.p {...appearingProps} className="text-center text-lg">I strive to stay updated and expand my knowledge, such as this portfolio</motion.p>
             </div>
           </div>
         </div>
@@ -117,6 +117,8 @@ const SoftSkills = () => {
                 transition: { duration: 0.3 },
               }} 
             variants={iconVariants(4)}
+            initial="initial"
+            animate="animate" 
               className="rounded-2xl border-4 border-neutral-800 p-8 flex items-center justify-center">
               <FaMagnifyingGlass className="text-7xl text-purple-800" />
             </motion.div>
