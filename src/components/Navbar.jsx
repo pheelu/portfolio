@@ -3,7 +3,7 @@ import { FaGithub } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 
 
-const Navbar = () => {
+const navbar = () => {
   return (
     <nav className="flex flex-col items-center justify-between py-6 px-6 sm:px-8 sm:flex-row">
       <div className="flex flex-shrink-0 items-center">
@@ -17,7 +17,6 @@ const Navbar = () => {
       </div>
       <div className="mt-4 flex flex-wrap items-center justify-center gap-4 text-xl sm:mt-0 sm:flex-row">
         <motion.a
-          
           href="https://www.linkedin.com/in/filippo-alzati-a9428a215/"
           target="_blank"
           rel="noopener noreferrer"
@@ -56,4 +55,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default navbar;
