@@ -41,7 +41,7 @@ const Education = () => {
                     >
                       {education.at}
                       {' '}
-                      <FaExternalLinkAlt className="inline-block mb-1" />
+                      <FaExternalLinkAlt className="inline-block mb-1 ml-1 mr-1" />
                     </a>{' '}
                     in{' '}
                     <span className="mr-2 mt-4 rounded text-sm bg-neutral-900 px-2 py-1 font-medium text-green-500">
