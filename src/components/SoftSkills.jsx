@@ -29,9 +29,11 @@ const SoftSkills = () => {
   return (
     <div className="border-b border-neutral-900 pb-4">
         <motion.h2
-          whileInView={{ opacity : 1, y : 0 }}
-          initial={{ opacity : 0, y : -50 }}
-          transition = {{ duration : 0.5 }} 
+          whileHover={{
+            scale: 1.1,
+            transition: { duration: 0.3 },
+          }}
+          {...appearingProps}
           className="my-20 text-center text-4xl">
           Soft{" "}
           <span className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-transparent">
@@ -46,9 +48,7 @@ const SoftSkills = () => {
                 scale: 1.1,
                 transition: { duration: 0.3 },
               }}
-            variants={iconVariants(2.5)}
-            initial="initial"
-            animate="animate"
+              {...appearingProps}
             className="rounded-2xl border-4 border-neutral-800 p-8 flex items-center justify-center">
               <TiWorld className="text-7xl text-purple-800" />
             </motion.div>
@@ -62,10 +62,8 @@ const SoftSkills = () => {
               whileHover={{
                 scale: 1.1,
                 transition: { duration: 0.3 },
-              }} 
-            variants={iconVariants(4)}
-            initial="initial"
-            animate="animate"
+              }}
+              {...appearingProps}
                className="rounded-2xl border-4 border-neutral-800 p-8 flex items-center justify-center">
               <BsChatRightDots className="text-7xl text-purple-800" />
             </motion.div>
@@ -79,16 +77,14 @@ const SoftSkills = () => {
               whileHover={{
                 scale: 1.1,
                 transition: { duration: 0.3 },
-              }} 
-            variants={iconVariants(2)}
-            initial="initial"
-            animate="animate"
+              }}
+              {...appearingProps}
               className="rounded-2xl border-4 border-neutral-800 p-8 flex items-center justify-center">
               <TfiStatsUp className="text-7xl text-purple-800" />
             </motion.div>
             <div>
               <motion.h3 {...appearingProps} className="mt-2 text-center font-semibold text-xl">Adaptability</motion.h3>
-              <motion.p {...appearingProps} className="text-center text-lg">I strive to stay updated and expand my knowledge, such as this portfolio</motion.p>
+              <motion.p {...appearingProps} className="text-center text-lg">I strive to stay updated and expand my knowledge, such as this portfolio.</motion.p>
             </div>
           </div>
         </div>
@@ -98,10 +94,8 @@ const SoftSkills = () => {
               whileHover={{
                 scale: 1.1,
                 transition: { duration: 0.3 },
-              }} 
-            variants={iconVariants(6)}
-            initial="initial"
-            animate="animate" 
+              }}
+              {...appearingProps}
               className="rounded-2xl border-4 border-neutral-800 p-8 flex items-center justify-center">
               <FaRegLightbulb className="text-7xl text-purple-800" />
             </motion.div>
@@ -115,10 +109,8 @@ const SoftSkills = () => {
               whileHover={{
                 scale: 1.1,
                 transition: { duration: 0.3 },
-              }} 
-            variants={iconVariants(4)}
-            initial="initial"
-            animate="animate" 
+              }}
+              {...appearingProps}
               className="rounded-2xl border-4 border-neutral-800 p-8 flex items-center justify-center">
               <FaMagnifyingGlass className="text-7xl text-purple-800" />
             </motion.div>
