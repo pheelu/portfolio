@@ -8,7 +8,6 @@ import Projects from './components/Projects';
 import SoftSkills from './components/SoftSkills';
 import Contact from './components/Contact';
 import NavigatorBar from './components/NavigatorBar';
-import Footer from './components/Footer';
 
 const App = () => {
   return (
