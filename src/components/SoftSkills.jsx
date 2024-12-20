@@ -54,7 +54,7 @@ const SoftSkills = () => {
             </motion.div>
             <div>
               <motion.h3 {...appearingProps} className="mt-2 text-center font-semibold text-xl">Languages</motion.h3>
-              <motion.p {...appearingProps} className="text-center text-lg">I speak 4 languages!<br />Italian, English, Spanish, and French.</motion.p>
+              <motion.p {...appearingProps} className="text-center text-sm mt-3">I speak 4 languages!<br />Italian, English, Spanish, and French.</motion.p>
             </div>
           </div>
           <div className="flex sm:flex-col flex-row items-center sm:space-y-6 space-x-6 sm:space-x-0">
@@ -69,7 +69,7 @@ const SoftSkills = () => {
             </motion.div>
             <div>
               <motion.h3 {...appearingProps} className="mt-2 text-center font-semibold text-xl">Communication</motion.h3>
-              <motion.p {...appearingProps} className="text-center text-lg">I have worked as a waiter, interacting with customers and learning how to engage effectively with people.</motion.p>
+              <motion.p {...appearingProps} className="text-center text-sm mt-3">I have worked as a waiter, interacting with customers and learning how to engage effectively with people.</motion.p>
             </div>
           </div>
           <div className="flex sm:flex-col flex-row items-center sm:space-y-6 space-x-6 sm:space-x-0">
@@ -84,7 +84,7 @@ const SoftSkills = () => {
             </motion.div>
             <div>
               <motion.h3 {...appearingProps} className="mt-2 text-center font-semibold text-xl">Adaptability</motion.h3>
-              <motion.p {...appearingProps} className="text-center text-lg">I strive to stay updated and expand my knowledge, such as this portfolio.</motion.p>
+              <motion.p {...appearingProps} className="text-center text-sm mt-3">I strive to stay updated and expand my knowledge, such as this portfolio.</motion.p>
             </div>
           </div>
         </div>
@@ -101,7 +101,7 @@ const SoftSkills = () => {
             </motion.div>
             <div>
               <motion.h3 {...appearingProps} className="mt-2 text-center font-semibold text-xl">Critical Thinking</motion.h3>
-              <motion.p {...appearingProps} className="text-center text-lg">I don’t settle for results unless I fully understand them, ensuring thorough comprehension.</motion.p>
+              <motion.p {...appearingProps} className="text-center text-sm mt-3">I don’t settle for results unless I fully understand them, ensuring thorough comprehension.</motion.p>
             </div>
           </div>
           <div className="flex sm:flex-col flex-row items-center sm:space-y-6 space-x-6 sm:space-x-0 mb-20">
@@ -116,7 +116,7 @@ const SoftSkills = () => {
             </motion.div>
             <div>
               <motion.h3 {...appearingProps} className="mt-2 text-center font-semibold text-xl">Strategic Thinking</motion.h3>
-              <motion.p {...appearingProps} className="text-center text-lg">I believe in working smarter and approaching challenges with a strategic mindset.</motion.p>
+              <motion.p {...appearingProps} className="text-center text-sm mt-3">I believe in working smarter and approaching challenges with a strategic mindset.</motion.p>
             </div>
           </div>
         </div>
