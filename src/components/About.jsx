@@ -11,7 +11,7 @@ const About = () => {
         className="my-20 text-center text-4xl">
         About{" "}
         <span className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-transparent">
-          Me
+          Me try2
         </span>
       </motion.h2>
       <div className="flex flex-wrap justify-center">
