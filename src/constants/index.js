@@ -1,5 +1,9 @@
 import project1 from "../assets/projects/image-1.jpg";
 import project2 from "../assets/projects/image-4.jpg";
+import { TiWorld } from "react-icons/ti";
+import { BsChatRightDots } from "react-icons/bs";
+import { TfiStatsUp } from "react-icons/tfi";
+
 
 export const HERO_CONTENT = `I am a 23-year-old Italian student pursuing a Master's in Computer Engineering in France, specializing in Cybersecurity and E-Payment systems.`;
 
@@ -58,6 +62,24 @@ export const PROJECTS = [
     image: project2,
     description:"This project focuses on the development of a simulation system to track soccer players' movements, pressure, body temperature, heart rate, and calories using sensors integrated with digital devices. A GUI displays real-time match info and a heat map, helping to understand tactics and strategies. An integrated database system provides data storage, extraction, and analytics to generate insights for coaches, players, and fans. MQTT is used for communication between the sensors and Node-RED.",
     technologies: ["Python", "JavaScript", "mongoDB", "Node-RED"],
+  },
+];
+
+export const SKILLS = [
+  {
+    icon: <TiWorld className="text-5xl text-purple-800" />,
+    title: "Languages",
+    text: "I speak 4 languages!\nItalian, English, Spanish, and French.",
+  },
+  {
+    icon: <BsChatRightDots className="text-5xl text-purple-800" />,
+    title: "Communication",
+    text: "I have worked as a waiter, interacting with customers and learning how to engage effectively with people.",
+  },
+  {
+    icon: <TfiStatsUp className="text-5xl text-purple-800" />,
+    title: "Adaptability",
+    text: "I strive to stay updated and expand my knowledge, such as this portfolio.",
   },
 ];
 
