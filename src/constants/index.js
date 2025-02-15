@@ -9,7 +9,7 @@ As a sports enthusiast, I aim to combine my passion for data and technology with
 
 export const EDUCATION = [
   {
-    year: "2024 - Present",
+    year: "2024 - 2025",
     at: "ENSI CAEN",
     country : "France",
     subject: "MSc in Computer Engineering", 
