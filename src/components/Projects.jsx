@@ -65,7 +65,7 @@ const Projects = () => {
           className="flex items-center space-x-3 text-lg font-semibold text-purple-800 hover:text-blue-500 transition duration-300"
         >
           <FaGithub className="text-3xl" />
-          <span>Check my GitHub</span>
+          <span>Check my GitHub for more!</span>
         </motion.a>
       </div>
     </div>
