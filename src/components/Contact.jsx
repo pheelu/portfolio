@@ -1,6 +1,6 @@
-import { CONTACT } from '../constants'
-import { motion } from 'framer-motion'
-import { FaLinkedin, FaGithub } from 'react-icons/fa'
+import { CONTACT } from '../constants';
+import { motion } from 'framer-motion';
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
 
 const Contact = () => {
   return (
@@ -43,9 +43,14 @@ const Contact = () => {
             </motion.div>
           </motion.a>
         </div>
+
         <div className="text-center tracking-tighter">
           <p className="my-4">{CONTACT.phoneNo}</p>
-          <a href="#" className="border-b border-white hover:border-neutral-300">
+
+          <a
+            href={`mailto:${CONTACT.email}`} // Opens default email client
+            className="text-white hover:text-neutral-300 transition-colors duration-300"
+          >
             {CONTACT.email}
           </a>
         </div>
