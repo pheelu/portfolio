@@ -62,21 +62,6 @@ export const PROJECTS = [
   },
 ];
 
-export const SKILLS = [
-  {
-    title: "Languages",
-    text: "I speak 4 languages!\nItalian, English, Spanish, and French.",
-  },
-  {
-    title: "Communication",
-    text: "I have worked as a waiter, interacting with customers and learning how to engage effectively with people.",
-  },
-  {
-    title: "Adaptability",
-    text: "I strive to stay updated and expand my knowledge, such as this portfolio.",
-  },
-];
-
 export const CONTACT = {
   phoneNo: "+39 342 589 5077 ",
   email: "filippoprivata@gmail.com",

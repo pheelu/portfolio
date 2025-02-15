@@ -2,7 +2,6 @@ import { TiWorld } from "react-icons/ti";
 import { BsChatRightDots } from "react-icons/bs";
 import { TfiStatsUp } from "react-icons/tfi";
 import { motion } from "framer-motion";
-import { SKILLS } from "./index"; // Import the SKILLS array from index.js
 
 const appearingProps = {
   whileInView: { opacity: 1, y: 0 },
@@ -11,13 +10,6 @@ const appearingProps = {
 };
 
 const SoftSkills = () => {
-  // Define icons locally in the JSX
-  const icons = [
-    <TiWorld className="text-5xl text-purple-800" />,
-    <BsChatRightDots className="text-5xl text-purple-800" />,
-    <TfiStatsUp className="text-5xl text-purple-800" />,
-  ];
-
   return (
     <div className="border-b border-neutral-900 pb-4">
       <motion.h2 {...appearingProps} className="my-20 text-center text-4xl">
@@ -28,13 +20,29 @@ const SoftSkills = () => {
       </motion.h2>
       <div className="px-4">
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-12 justify-center mb-24 max-w-5xl mx-auto">
-          {SKILLS.map((skill, index) => (
+          {[
+            {
+              icon: <TiWorld className="text-5xl text-purple-800" />,
+              title: "Languages",
+              text: "I speak 4 languages!\nItalian, English, Spanish, and French.",
+            },
+            {
+              icon: <BsChatRightDots className="text-5xl text-purple-800" />,
+              title: "Communication",
+              text: "I have worked as a waiter, interacting with customers and learning how to engage effectively with people.",
+            },
+            {
+              icon: <TfiStatsUp className="text-5xl text-purple-800" />,
+              title: "Adaptability",
+              text: "I strive to stay updated and expand my knowledge, such as this portfolio.",
+            },
+          ].map((skill, index) => (
             <div key={index} className="flex sm:flex-col flex-row items-center sm:space-y-4 space-x-4 sm:space-x-0">
               <motion.div
                 {...appearingProps}
                 className="rounded-2xl border-4 border-neutral-800 p-6 flex items-center justify-center"
               >
-                {icons[index]} {/* Use the corresponding icon from the icons array */}
+                {skill.icon}
               </motion.div>
               <div>
                 <motion.h3 {...appearingProps} className="mt-2 text-center font-semibold text-xl">
