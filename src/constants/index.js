@@ -1,8 +1,5 @@
 import project1 from "../assets/projects/image-1.jpg";
 import project2 from "../assets/projects/image-4.jpg";
-import { TiWorld } from "react-icons/ti";
-import { BsChatRightDots } from "react-icons/bs";
-import { TfiStatsUp } from "react-icons/tfi";
 
 
 export const HERO_CONTENT = `I am a 23-year-old Italian student pursuing a Master's in Computer Engineering in France, specializing in Cybersecurity and E-Payment systems.`;
@@ -67,17 +64,14 @@ export const PROJECTS = [
 
 export const SKILLS = [
   {
-    icon: <TiWorld className="text-5xl text-purple-800" />,
     title: "Languages",
     text: "I speak 4 languages!\nItalian, English, Spanish, and French.",
   },
   {
-    icon: <BsChatRightDots className="text-5xl text-purple-800" />,
     title: "Communication",
     text: "I have worked as a waiter, interacting with customers and learning how to engage effectively with people.",
   },
   {
-    icon: <TfiStatsUp className="text-5xl text-purple-800" />,
     title: "Adaptability",
     text: "I strive to stay updated and expand my knowledge, such as this portfolio.",
   },

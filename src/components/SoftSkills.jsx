@@ -1,5 +1,8 @@
-import { SKILLS } from "./index"; // Import the SKILLS array from index.js
+import { TiWorld } from "react-icons/ti";
+import { BsChatRightDots } from "react-icons/bs";
+import { TfiStatsUp } from "react-icons/tfi";
 import { motion } from "framer-motion";
+import { SKILLS } from "./index"; // Import the SKILLS array from index.js
 
 const appearingProps = {
   whileInView: { opacity: 1, y: 0 },
@@ -8,6 +11,13 @@ const appearingProps = {
 };
 
 const SoftSkills = () => {
+  // Define icons locally in the JSX
+  const icons = [
+    <TiWorld className="text-5xl text-purple-800" />,
+    <BsChatRightDots className="text-5xl text-purple-800" />,
+    <TfiStatsUp className="text-5xl text-purple-800" />,
+  ];
+
   return (
     <div className="border-b border-neutral-900 pb-4">
       <motion.h2 {...appearingProps} className="my-20 text-center text-4xl">
@@ -24,7 +34,7 @@ const SoftSkills = () => {
                 {...appearingProps}
                 className="rounded-2xl border-4 border-neutral-800 p-6 flex items-center justify-center"
               >
-                {skill.icon}
+                {icons[index]} {/* Use the corresponding icon from the icons array */}
               </motion.div>
               <div>
                 <motion.h3 {...appearingProps} className="mt-2 text-center font-semibold text-xl">
