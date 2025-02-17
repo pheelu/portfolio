@@ -1,7 +1,7 @@
 import { CONTACT } from '../constants';
 import { motion } from 'framer-motion';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
-import CV from '../assets/CV.pdf';
+import CV from '../assets/CV_Filippo_Alzati.pdf';
 
 const Contact = () => {
   return (
