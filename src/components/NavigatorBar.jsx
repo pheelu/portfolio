@@ -2,7 +2,7 @@ import { FaLinkedin } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
 import { FaFileDownload } from 'react-icons/fa'; // Icona per il download
 import { motion } from 'framer-motion';
-import CV from '../assets/CV_Filippo_Alzati.pdf'; // Importa il file del CV
+import CV from '../assets/Filippo_Alzati_CV.pdf'; // Importa il file del CV
 
 const NavigatorBar = () => {
   return (
