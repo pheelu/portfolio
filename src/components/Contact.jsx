@@ -1,6 +1,7 @@
 import { CONTACT } from '../constants';
 import { motion } from 'framer-motion';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import CV from '../assets/Filippo_Alzati_CV.pdf';
 
 const Contact = () => {
   return (
@@ -9,7 +10,7 @@ const Contact = () => {
         <span className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-transparent">
           Me
         </span>
-        </h2>
+      </h2>
 
       <div className="max-w-lg mx-auto p-6 mx-2 relative">
         <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 p-1 -z-10">
@@ -60,6 +61,23 @@ const Contact = () => {
             >
               {CONTACT.email}
             </a>
+          </div>
+          {/* Download CV Button */}
+          <div className="flex justify-center mt-8">
+            <motion.a
+              href={CV}
+              download="Filippo_Alzati_CV.pdf"
+              className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 text-white px-6 py-3 rounded-lg font-semibold hover:opacity-80 transition-opacity duration-300"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.5, delay: 0.8 }}
+              whileHover={{
+                scale: 1.1,
+                transition: { duration: 0.3 },
+              }}
+            >
+              Download CV
+            </motion.a>
           </div>
         </div>
       </div>
