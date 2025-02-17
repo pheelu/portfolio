@@ -70,7 +70,7 @@ const Contact = () => {
               className="bg-white text-neutral-900 px-6 py-3 rounded-full font-semibold hover:bg-opacity-90 transition-all duration-300 shadow-lg"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ duration: 0.5, delay: 0.1 }}
+              transition={{ duration: 0.2, delay: 0.1 }}
               whileHover={{
                 scale: 1.05,
                 transition: { duration: 0.1 },
