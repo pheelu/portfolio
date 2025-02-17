@@ -67,13 +67,13 @@ const Contact = () => {
             <motion.a
               href={CV}
               download="Filippo_Alzati_CV.pdf"
-              className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 text-white px-6 py-3 rounded-lg font-semibold hover:opacity-80 transition-opacity duration-300"
+              className="bg-white text-neutral-900 px-6 py-3 rounded-full font-semibold hover:bg-opacity-90 transition-all duration-300 shadow-lg"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ duration: 0.5, delay: 0.8 }}
+              transition={{ duration: 0.5, delay: 0.1 }}
               whileHover={{
-                scale: 1.1,
-                transition: { duration: 0.3 },
+                scale: 1.05,
+                transition: { duration: 0.1 },
               }}
             >
               Download CV
