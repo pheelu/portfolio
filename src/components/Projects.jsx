@@ -62,7 +62,7 @@ const Projects = () => {
           rel="noopener noreferrer"
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
-          className="flex items-center space-x-3 text-lg font-semibold text-purple-800 hover:text-blue-500 transition duration-300"
+          className="flex items-center space-x-3 text-lg font-semibold text-purple-800 hover:text-gray-700 transition duration-300"
         >
           <FaGithub className="text-3xl" />
           <span>Check my GitHub for more!</span>
